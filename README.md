@@ -1,0 +1,4 @@
+# Data_model_postgres
+
+Creating Data Model
+Create a function named create_database that uses the psycopg2 Python library to connect to a Postgres database from Jupyter Notebook. Within the create_database function, create a database named "accounts" and connect to it. Create two additional functions: drop_table and create_table, which will be used for creating or dropping tables. Use the pandas library to extract CSV files into Jupyter Notebook and assign them to variables. Transform the data using pandas and assign specific names to the transformed tables. Call the create_database function and use the connection to create tables in the "accounts" database in Postgres. Using the connection, load or insert values from transformed tables into tables in the "accounts" database. The tables created in the previous steps can be used as a simplified data model.
